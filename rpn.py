@@ -12,7 +12,7 @@ operators = {
 
 def calculate(myarg):
     stack = list()
-    for toke in myarg.split():
+    for token in myarg.split():
         try:
             token = int(token)
             stack.append(token)
